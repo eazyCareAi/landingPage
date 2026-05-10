@@ -35,6 +35,7 @@ import {
   InstagramIcon,
   YoutubeIcon,
   LinkedinIcon,
+  GithubIcon,
 } from "@/components/SocialIcons";
 
 function useLaunchReadiness() {
@@ -399,6 +400,8 @@ export default function LandingClient() {
                 {[
                   { href: "https://x.com/eazycareai", icon: TwitterIcon },
                   // { href: "https://www.instagram.com/easyCare.ai", icon: InstagramIcon },
+                  { href: "https://github.com/eazyCareAi", icon: GithubIcon },
+                  { href: "https://www.linkedin.com/in/eazycareai", icon: LinkedinIcon },
                   { href: "https://www.youtube.com/@eazyCareAi", icon: YoutubeIcon },
                 ].map((s) => (
                   <a
@@ -790,6 +793,24 @@ export default function LandingClient() {
               //   handle: "@easyCare.ai",
               // },
               {
+                href: "https://github.com/eazyCareAi",
+                icon: GithubIcon,
+                color: "#333",
+                bg: "rgba(51,51,51,0.1)",
+                title: "GitHub",
+                desc: "Open-source contributions and project updates.",
+                handle: "@eazyCareAi",
+              },
+              {
+                href: "https://linkedin.com/in/eazycareai",
+                icon: LinkedinIcon,
+                color: "#0A66C2",
+                bg: "rgba(10,102,194,0.1)",
+                title: "LinkedIn",
+                desc: "Corporate wellness, AI healthcare thought leadership, and B2B updates.",
+                handle: "eazycareai",
+              },
+              {
                   href: "https://www.youtube.com/@eazyCareAi",
                 icon: YoutubeIcon,
                 color: "#FF0000",
@@ -798,15 +819,6 @@ export default function LandingClient() {
                 desc: "Doctor Q&As, platform tutorials, and health education series.",
                 handle: "@eazyCareAi",
               },
-              // {
-              //   href: "https://www.linkedin.com/company/eazycareai",
-              //   icon: LinkedinIcon,
-              //   color: "#0A66C2",
-              //   bg: "rgba(10,102,194,0.1)",
-              //   title: "LinkedIn",
-              //   desc: "Corporate wellness, AI healthcare thought leadership, and B2B updates.",
-              //   handle: "EazyCare AI",
-              // },
             ].map((c, i) => (
               <ScrollReveal key={c.href} delay={i * 100}>
                 <a
@@ -942,6 +954,8 @@ export default function LandingClient() {
               {[
                 { href: "https://x.com/eazycareai", icon: TwitterIcon },
                 // { href: "https://www.instagram.com/easyCare.ai", icon: InstagramIcon },
+                { href: "https://www.linkedin.com/in/eazycareai", icon: LinkedinIcon },
+                { href: "https://www.github.com/eazyCareAi", icon: GithubIcon },
                 { href: "https://www.youtube.com/@eazyCareAi", icon: YoutubeIcon },
               ].map((s) => (
                 <a

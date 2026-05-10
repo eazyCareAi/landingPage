@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { TwitterIcon, InstagramIcon, YoutubeIcon, LinkedinIcon } from "@/components/SocialIcons";
+import { TwitterIcon, InstagramIcon, GithubIcon, YoutubeIcon, LinkedinIcon } from "@/components/SocialIcons";
 
 export default function Footer() {
   return (
@@ -48,14 +48,22 @@ export default function Footer() {
               >
                 <YoutubeIcon size={16} />
               </a>
-              {/* <a
-                href="https://www.linkedin.com/company/eazycareai"
+              <a
+                href="https://www.linkedin.com/in/eazycareai"
                 target="_blank"
                 rel="noopener"
                 className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-white/70 hover:bg-[#1AB89E] hover:text-[#060E1A] transition-all"
               >
                 <LinkedinIcon size={16} />
-              </a> */}
+              </a>
+              <a
+                href="https://www.github.com/eazyCareAi"
+                target="_blank"
+                rel="noopener"
+                className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-white/70 hover:bg-[#1AB89E] hover:text-[#060E1A] transition-all"
+              >
+                <GithubIcon size={16} />
+              </a>
             </div>
           </div>
           <div>
